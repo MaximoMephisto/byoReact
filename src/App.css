@@ -1,38 +1,42 @@
+/*Variables*/
+:root {
+  --bg-dark:#060606;
+}
 .App {
-  text-align: center;
+  font-family: 'Noto Sans Mono', monospace;
+  font-size: 13px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  font-weight: 600 !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover {
+  color: var(--bg-dark);
+  text-decoration: none;
+  border-bottom: 2px solid var(--bg-dark);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#header .iconOne, .iconTwo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#options {
+  background-color: whitesmoke;
+  font-weight: 600 !important;
+}
+#options .card {
+  border-radius: 0%;
+  border: 0;
+}
+#options .card-active {
+  background-color: var(--bg-dark) !important;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#options img {
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#options .img-inactive {
+  filter: blur(0.9px);
+  transition: all .5s;
+}
+#options .img-inactive:hover {
+  filter: blur(0px);
 }
