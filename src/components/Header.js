@@ -110,7 +110,7 @@ export default function Header()
                     <div className="container">
                         <div className="row container-perso">
                             <div className="col-6 col-sm-2 my-5">
-                                <div className="card card-active">
+                                <div className="card card-active h-100">
                                     <div className="col-12 col-sm-12">
                                         <img className="img-active" src={imgOne} alt="imgOne" />
                                     </div>
@@ -120,7 +120,7 @@ export default function Header()
                                 </div>
                             </div>
                             <div className="col-6 col-sm-2 my-5">
-                                <div className="card">
+                                <div className="card h-100">
                                     <div className="col-12 col-sm-12">
                                         <img className="img-inactive" src={imgTwo} alt="imgTwo" />
                                     </div>
@@ -130,7 +130,7 @@ export default function Header()
                                 </div>
                             </div>
                             <div className="col-6 col-sm-2 my-5">
-                                <div className="card">
+                                <div className="card h-100">
                                     <div className="col-12 col-sm-12">
                                         <img className="img-inactive" src={imgThree} alt="imgThree" />
                                     </div>
@@ -140,7 +140,7 @@ export default function Header()
                                 </div>
                             </div>
                             <div className="col-6 col-sm-2 my-5">
-                                <div className="card">
+                                <div className="card h-100">
                                     <div className="col-12 col-sm-12">
                                         <img className="img-inactive" src={imgFour} alt="imgFour" />
                                     </div>
