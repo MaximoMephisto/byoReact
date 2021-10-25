@@ -48,6 +48,42 @@
   color: grey;
   font-weight: 600;
 }
-#products {
-  
+#products .carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #060606;
+  border: 1px solid #060606;
+  border-radius: 50px;
+}
+#others .card {
+  font-size: 15px;
+  background-color: whitesmoke;
+  border: 0;
+  border-radius: 0;
+}
+.btn-perso {
+  border: 2px solid #060606;
+  border-radius: 0;
+  font-weight: bold !important;
+  transition: all .3s;
+}
+#others .btn-perso-two {
+  border: 0;
+  border-radius: 0;
+  font-weight: bold !important;
+  transition: all .3s;
+}
+.btn-perso:hover {
+  background-color: #060606;
+  color: whitesmoke;
+}
+#others .svg-flecha {
+  margin-left: 5px;
+}
+#contact .svg-contact {
+  color: #060606;
+  border: 5px solid #060606;
+  border-radius: 50px;
+  padding: 10px;
+}
+#contact .svg-flecha {
+  margin-left: 25px;
 }
