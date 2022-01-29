@@ -837,7 +837,7 @@ export default function Main() {
                                 Sign up to be a part of our global community, offering you a 
                                 world of exclusive benefits.
                             </div>
-                            <div className="col-12 col-sm-12 mt-3 text-center">
+                            <div className="col-12 col-sm-12 mt-3 mb-3 text-center">
                                 <button className="btn btn-perso">
                                     SIGN UP NOW
                                     <svg
